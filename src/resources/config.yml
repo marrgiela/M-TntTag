@@ -1,0 +1,29 @@
+bungee:
+  enable: false  # Je¿eli chcesz mieæ pod bungee to daj TRUE
+  hubName: lobby # Nazwa twojego huba np main1 czy tam lobby1
+
+options:
+  minPlayers: 10 # Iloœæ minimalnych graczy
+  autoStartTimer: 15 # Po up³ywie 15s zaczyna siê odliczanie do startu (AUTOSTART)
+  gameCycleTimer: 30 # Ogólny czas czekania
+  closeTimerSec: 5 # Zamyka siê licznik czasu
+
+locations:
+  worldName: world # Nazwa œwiata
+  spawn: -5.197, 34.63534, 11.444, -159.3, 5.8 # Kordy spawnu (mo¿esz ustawiæ sam swoje)
+  gameSpawn: -36.388, 50.56354, 15.142, 138.0, 11.8 # Kordy gry spawnu (mo¿esz ustawiæ sam swoje)
+
+messages:
+  prefix: "&c[M-TntTag]"
+  joinMessage: "&7<player> &edo³¹czy³/a do gry! &a<<size>&7/&b<maxsize>>"
+  quitMessage: "&7<player> &eopusci³/a grê!"
+  subStartTitle: "&e<timer>"
+  startTitle: "&aStar!"
+  boomMessage: "&cBoom"
+  winnerMessage: "&2<player> &awygra³/a rozgrywkê"
+  tabListTagged: "&c[MARGIELATNT] "
+  hitMessage: "&7<player> &chit!"
+  deathMessage: "&7<player> &czosta³/a wyeliminowany/a"
+  hitChange: "&cZosta³eœ/aœ oznaczony/a!"
+  hasStarted: "&eGra ju¿ dawno siê rozpoczê³a!"
+  chatFormat: "&7<player>: &e<message>"
